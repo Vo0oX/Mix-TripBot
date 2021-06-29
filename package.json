@@ -1,0 +1,26 @@
+{
+  "name": "telegram-bot-instagram",
+  "version": "2.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cloudipsp-node-js-sdk": "^1.0.5",
+    "crypto": "^1.0.1",
+    "express": "~4.16.1",
+    "https": "^1.0.0",
+    "microstats": "^0.1.2",
+    "mongoose": "^5.11.15",
+    "needle": "^2.6.0",
+    "node-telegram-bot-api": "^0.51.0",
+    "query-string": "^6.14.0",
+    "request": "^2.88.2",
+    "sha1": "^1.1.1",
+    "sha256": "^0.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
